@@ -7,14 +7,14 @@ export default class SkyHighBuilding extends Building {
   }
 
   get floors() {
-    return this._floor;
+    return this._floors;
   }
 
-  set floors(value) {
+  set floors(newFloors) {
     if (typeof newFloors !== 'number') {
       throw TypeError('Floors must be a number');
     }
-    this._floors = value;
+    this._floors = newFloors;
   }
 
   evacuationWarningMessage() {
