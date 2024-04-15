@@ -1,5 +1,5 @@
 /* eslint-disable no-unused-vars */
-function getListStudents() {
+export default function getListStudents() {
   const array = [
     { id: 1, firstName: 'Guillaume', location: 'San Francisco' },
     { id: 2, firstName: 'James', location: 'Columbia' },
